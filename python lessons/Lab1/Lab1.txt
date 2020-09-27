@@ -1,0 +1,121 @@
+Lab 1 - Input and conditionals 
+
+The assignment: 
+	Create a program that takes user string input and does the following: 
+		checks the input against a preset string,
+		If the string matches print "correct input",
+		if the sting does not match print "incorrect input".
+
+	Requirements: 
+		The program should not error out no matter what input the user gives, 
+		the program should NOT be case sensitive, 
+		
+	Example output: 
+
+		Case 1, Correct input:
+			Lab1.py - "please enter password"
+			user    - "password"
+			Lab1.py - "correct input"
+
+		Case 2, Incorrect input:
+			Lab1.py - "please enter password: 
+			user    - "incorrect password"
+			Lab1.py - "incorect input"
+
+
+	Extra requirement: 
+		The program should only take string inputs that contain 0-9, '_', and A-Z characters 
+		If any strings have inputs that dont meet this critera the program should print "invalid input"
+		Bonus points if you can impliment this using an Ascii chart 
+
+		Example output: 
+
+			Case 1, Invalid input:
+				Lab1.py - "please enter password"
+				user    - "pass word"
+			``	Lab1.py - "Invalid input"
+
+
+
+
+
+
+"user_Input12345" 
+
+
+
+
+ord(<char>) == x  : X = correct char   char = 'a'   
+ 
+
+ascii(int ) = 'char'
+ord (char ) = int 
+
+
+
+<char> <userInput> 
+
+
+
+
+Valid ascii range x: 
+x == 95
+48 <= x <= 57
+97 <= x <= 122
+
+
+
+"user_Input12345" 
+
+
+ list = [a, b, c] 
+
+for x in list: 
+	print(x) 
+
+
+string = list of characters 
+
+
+for <char> in <string> : 
+	x = ord(<char>) 
+	if x == 95 or 48 <= x <= 57 or 97 <= x <= 122:
+		is valid 
+	else: 
+		not valid 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
